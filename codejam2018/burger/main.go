@@ -31,7 +31,6 @@ func main() {
 		es := 0 // 誤差合計
 		for j := 0; j < k; j++ {
 			d := square(ds[j] - bs[j]) // 誤差
-			log.Print(d)
 			es += d
 		}
 		fmt.Printf("Case #%d: %d\n", i, es)
